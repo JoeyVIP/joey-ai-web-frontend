@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: joey-ai-web-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://joey-ai-agent-backend.onrender.com

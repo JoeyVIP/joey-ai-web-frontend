@@ -6,4 +6,4 @@ services:
     startCommand: npm start
     envVars:
       - key: NEXT_PUBLIC_API_URL
-        value: https://joey-ai-agent-backend.onrender.com
+        value: https://ai-agent.89115053.xyz
